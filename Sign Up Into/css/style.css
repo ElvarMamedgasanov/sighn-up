@@ -1,0 +1,102 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+ html{
+  background: url('images/intro.jpg');
+}
+
+
+*{
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+ 	font-size:16px;
+}
+
+ .everyone{
+ 	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px 160px;
+ }
+
+ .right{
+ 	flex:50%;
+ 	color: white;
+ 	padding-right: 30px;
+ }
+ h1{
+ 	font-size: 50px;
+ 	line-height: 56px;
+ 	margin-bottom: 25px;
+ }
+
+ .right p{
+ 	line-height: 25px;
+ }
+
+ .left{
+ 	flex:50%;
+ }
+
+ .TryForFree{
+ 	width:90%;
+ 	background-color:#5D54A3;
+ 	color:#efefef;
+ 	padding: 15px 20px;
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ 	border-radius: 8px;
+ 	padding-right: 30px;
+ }
+
+ .TryForFree span{
+ 	font-weight: 600;
+ }
+
+ .form{
+ 	width: 90%;
+ 	background-color: white;
+ 	display: flex;
+ 	flex-direction: column;
+ 	padding: 35px;
+ 	border-radius: 8px;
+ }
+
+ .form div{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ input,button{
+ 	padding: 17px 25px;
+ 	margin-bottom: 18px;
+ 	border: 2px solid #efefef;
+ 	border-radius: 8px;
+ 	font-weight: 600;
+ }
+
+ button{
+ 	text-transform: uppercase;
+ 	color: white;
+ 	background-color: #77E2B4;
+
+ }
+
+ button:hover{
+ 	opacity: 0.8;
+ }
+
+ .form p{
+ 	font-size: 10px;
+ 	color:gray;
+ 	margin:auto;
+ }
+
+ .form p span{
+ 	color: #DC686C;	
+ 	font-weight: 700;
+ }
